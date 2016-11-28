@@ -1,0 +1,174 @@
+*{
+	
+	box-sizing: border-box;
+
+}
+ul li a{
+	list-style: none;
+	text-decoration: none;
+	color:#fffdfd;
+}
+nav{
+	margin-top: 5%;
+}
+.oscuro{
+	background: #000;
+	background-color:rgba(22,17,49,0.5);
+}
+.logo{
+	margin-top: 11%;
+}
+.icon-container
+{
+	width: 150px;
+	height: 150px;
+	margin: 0 auto;
+	line-height: 150px;
+	font-size: 40px;
+	text-align: center;
+	box-shadow: -2px 2px 10px rgba(0,0,0,0.2);
+	border-radius: 200px;
+	color: skyblue;
+	margin-top: 40px;
+}
+header{
+	background: url(../image/large.jpg)no-repeat;
+	background-size: cover;
+	height: 600px;
+	position: relative;
+}
+.header-banner{
+	margin-top: 34%;
+	background: #4e7eb8;
+	opacity: 0.9;
+	height: 21%;
+	color: #fffdfd;
+
+}
+.header-banner button
+{
+	color: #fffdfd;
+	background-color: #4f7fb8;
+	opacity: 0.9;
+	border:2px solid  #fffdfd;
+	height: 40px;
+	vertical-align:center;
+	margin-top: 10%;
+	margin-left: 5%;
+	font-size: 20px;
+}
+.header-banner .centrado{
+	margin-top: 1%;
+}
+.title-frase{
+	color: #fffdfd;
+}
+.frase{
+	position: absolute;
+	top:50%;
+	left: 50%;
+	text-align:center; 
+    display:table;
+    transform: translateX(-50%) translateY(-50%);
+}
+/*SERVICES*/
+.services{
+	color: #6baeff;
+	margin-top: 40px
+}
+.services p{
+	color:#6e8ba7;
+	font-size: 20px;
+	margin-top: 20px;
+	padding-left: 20%;
+    padding-right: 20%;
+}
+.services .parrafo {
+	text-decoration: none;
+	color:black;
+	font-size: 14px;
+	padding-right: 15%;
+	padding-left: 15%;
+}
+/*SEPARADOR*/
+.separador hr{
+	vertical-align: middle;
+	margin-top: 10%;
+}
+.separador img{
+	width: 60px;
+	margin-top: -57px;
+}
+/*MEDIA*/
+.ejemplo h3{
+	color:#68adff;
+	font-size: 30px;
+}
+.ejemplo p{
+	margin-top: 20px;
+}
+.ejemplo .logo2{
+	width: 250px;
+	margin-top: -47px;
+    margin-left: 165px;
+}
+.ejemplo .flecha{
+	margin-top: 40px;
+
+}
+/*mulimedia*/
+.multimedia h4{
+	color:#68adff;
+}
+.multimedia .informacion{	
+	font-size: 12px;
+	padding-left: 77px;
+}
+.multimedia img{
+	
+	width: 570px;
+}
+/*separador-mult*/
+.separador-mul hr{
+	vertical-align: middle;
+	margin-top: -1%;
+}
+.separador-mul img{
+	width: 60px;
+	margin-top: -57px;
+}
+.ejemplo .perfil{
+	width: 100%;
+}
+/*BANNER FOOT*/
+
+.banner-fot{
+	background: #4e7eb8;
+	opacity: 0.9;
+	height: 28%;
+	color: #fffdfd;
+	margin-top: 50px;
+}
+.banner-fot button{
+	color: #fffdfd;
+	background-color: #4f7fb8;
+	opacity: 0.9;
+	border:2px solid  #fffdfd;
+	height: 40px;
+	font-size: 20px;
+}
+/*FOOOOTER*/
+footer{
+	background-color: #2a3541;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+}
+footer h5{
+	
+	color:white;
+}
+footer a{
+	
+	color: #2e6a99;
+}
