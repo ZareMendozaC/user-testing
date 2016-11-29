@@ -1,5 +1,5 @@
 *{
-
+	
 	box-sizing: border-box;
 
 }
@@ -31,6 +31,27 @@ nav{
 	color: skyblue;
 	margin-top: 40px;
 }
+.iconos{
+	font-size: 30px;
+}
+.iconos li
+{
+	list-style: none;
+	margin-top: 45px;
+    margin-bottom: 65px;
+    margin-left: 99%;
+}
+.iconos li i {
+    font-size: 26px;
+    background: #41b0eb;
+    border-radius: 100%;
+    padding: 10px;
+    display: inline-block;
+    color: #fff;
+    margin-bottom: 10px;
+
+}
+
 header{
 	background: url(../image/large.jpg)no-repeat;
 	background-size: cover;
@@ -152,6 +173,16 @@ footer a{
 	
 	color: #2e6a99;
 }
+.icon-redes{
+	color: #2e5e94;
+	list-style: none;
+}
+.icon-redes li{
+	font-size: 35px;
+	display: inline-block;
+}
+
+/**/
 .centrar{
 	vertical-align:middle;
 	display:table-cell;
@@ -180,4 +211,16 @@ footer a{
 	border:2px solid  #fffdfd;
 	height: 40px;
 	font-size: 20px;
+}
+
+/*background al lado de los iconos*/
+.img-fondo
+{
+	background: url(../image/sec-2.jpg)no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.oscuro-mult{
+	background: #000;
+	background-color:rgba(22,17,49,0.5);
 }
