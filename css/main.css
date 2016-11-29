@@ -1,5 +1,5 @@
 *{
-	
+
 	box-sizing: border-box;
 
 }
@@ -37,29 +37,7 @@ header{
 	height: 600px;
 	position: relative;
 }
-.header-banner{
-	margin-top: 34%;
-	background: #4e7eb8;
-	opacity: 0.9;
-	height: 21%;
-	color: #fffdfd;
 
-}
-.header-banner button
-{
-	color: #fffdfd;
-	background-color: #4f7fb8;
-	opacity: 0.9;
-	border:2px solid  #fffdfd;
-	height: 40px;
-	vertical-align:center;
-	margin-top: 10%;
-	margin-left: 5%;
-	font-size: 20px;
-}
-.header-banner .centrado{
-	margin-top: 1%;
-}
 .title-frase{
 	color: #fffdfd;
 }
@@ -98,6 +76,7 @@ header{
 .separador img{
 	width: 60px;
 	margin-top: -57px;
+
 }
 /*MEDIA*/
 .ejemplo h3{
@@ -127,6 +106,7 @@ header{
 .multimedia img{
 	
 	width: 570px;
+	margin:0 auto;
 }
 /*separador-mult*/
 .separador-mul hr{
@@ -171,4 +151,33 @@ footer h5{
 footer a{
 	
 	color: #2e6a99;
+}
+.centrar{
+	vertical-align:middle;
+	display:table-cell;
+	margin-bottom: 5%;
+}
+.centrar-btn{
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.centrado{
+	text-align:center; 
+    display:table;
+    
+}
+.banner-head{
+	background: #4e7eb8;
+	opacity: 0.9;
+	height: 28%;
+	color: #fffdfd;
+	margin-top: 34.5%;
+}
+.banner-head button{
+	color: #fffdfd;
+	background-color: #4f7fb8;
+	opacity: 0.9;
+	border:2px solid  #fffdfd;
+	height: 40px;
+	font-size: 20px;
 }
