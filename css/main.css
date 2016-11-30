@@ -12,11 +12,12 @@ nav{
 	margin-top: 5%;
 }
 .oscuro{
-	background: #000;
+	height: 100%;
 	background-color:rgba(22,17,49,0.5);
 }
 .logo{
-	margin-top: 11%;
+	padding-top: 11%;
+	width: 100%;
 }
 .icon-container
 {
@@ -52,11 +53,10 @@ nav{
 
 }
 
-header{
+.header{
 	background: url(../image/large.jpg)no-repeat;
 	background-size: cover;
 	height: 600px;
-	position: relative;
 }
 
 .title-frase{
@@ -108,7 +108,7 @@ header{
 	margin-top: 20px;
 }
 .ejemplo .logo2{
-	width: 250px;
+	width: 200px;
 	margin-top: -47px;
     margin-left: 165px;
 }
@@ -202,7 +202,8 @@ footer a{
 	opacity: 0.9;
 	height: 28%;
 	color: #fffdfd;
-	margin-top: 34.5%;
+	
+	position: static;
 }
 .banner-head button{
 	color: #fffdfd;
@@ -223,4 +224,13 @@ footer a{
 .oscuro-mult{
 	background: #000;
 	background-color:rgba(22,17,49,0.5);
+}
+.navbar-custom .navbar-brand {
+  color: red;
+}
+.navbar button span{
+	background-color: white;
+}
+.navbar button {
+	background-color:#41b0eb;
 }
