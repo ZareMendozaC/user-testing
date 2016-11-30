@@ -34,6 +34,7 @@ nav{
 }
 .iconos{
 	font-size: 30px;
+	position: relative;
 }
 .iconos li
 {
@@ -224,6 +225,7 @@ footer a{
 .oscuro-mult{
 	background: #000;
 	background-color:rgba(22,17,49,0.5);
+	height: 100%;
 }
 .navbar-custom .navbar-brand {
   color: red;
@@ -233,4 +235,31 @@ footer a{
 }
 .navbar button {
 	background-color:#41b0eb;
+}
+/*formulario*/
+.formulario{
+	background: url(../image/large.jpg)no-repeat;
+	background-size: cover;
+	position: relative;
+	height: 800px;
+}
+.caja-form{
+	background-color: white;
+	padding: 20px;
+	border-top-color: skyblue;
+    border-top-width: 10px;
+    border:1px;
+}
+.caja-form 
+{
+	width: 50%;
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.form{
+	color:red;
 }
