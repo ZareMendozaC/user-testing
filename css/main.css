@@ -34,14 +34,14 @@ nav{
 }
 .iconos{
 	font-size: 30px;
-	position: relative;
+	position: absolute;
 }
 .iconos li
 {
 	list-style: none;
 	margin-top: 45px;
     margin-bottom: 65px;
-    margin-left: 99%;
+    transform: translateX(-210%);
 }
 .iconos li i {
     font-size: 26px;
@@ -124,6 +124,7 @@ nav{
 .multimedia .informacion{	
 	font-size: 12px;
 	padding-left: 77px;
+	position: relative;
 }
 .multimedia img{
 	
@@ -165,6 +166,8 @@ footer{
 	padding-top: 20px;
 	padding-bottom: 20px;
 	padding-left: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
 }
 footer h5{
 	
@@ -177,12 +180,16 @@ footer a{
 .icon-redes{
 	color: #2e5e94;
 	list-style: none;
+	padding: 0px;
 }
+.icon-text{
+	text-align: center;
+}
+
 .icon-redes li{
 	font-size: 35px;
 	display: inline-block;
 }
-
 /**/
 .centrar{
 	vertical-align:middle;
@@ -216,16 +223,20 @@ footer a{
 }
 
 /*background al lado de los iconos*/
-.img-fondo
+.multimedia .img-fondo
 {
 	background: url(../image/sec-2.jpg)no-repeat;
 	background-size: cover;
 	position: relative;
+	height: 400px;
+	margin: 0 auto;
+	padding: 0 auto; !important
 }
 .oscuro-mult{
-	background: #000;
 	background-color:rgba(22,17,49,0.5);
 	height: 100%;
+	width: 100%;
+	position: cover;
 }
 .navbar-custom .navbar-brand {
   color: red;
@@ -262,4 +273,20 @@ footer a{
 
 .form{
 	color:red;
+}
+@media screen and (max-width: 768px)
+{
+	.iconos{
+		display: none;
+	}
+	.separador-mul{
+		margin-top: 40px;
+	}
+	footer{
+		text-align: center;
+	}
+	footer .icon-text{
+		text-align: center;
+	}
+
 }
