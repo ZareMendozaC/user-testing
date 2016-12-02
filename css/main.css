@@ -287,5 +287,14 @@ footer a{
 	footer .icon-text{
 		text-align: center;
 	}
-
+}
+@media screen and (min-width: 768px) and (max-width: 1024px)
+{
+	header .logo{
+		width:50%;
+	}
+	.frase
+	{
+		top:35%;
+	}
 }
