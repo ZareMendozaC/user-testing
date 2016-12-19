@@ -108,7 +108,7 @@ nav{
 	margin-top: 20px;
 }
 .ejemplo .logo2{
-	width: 200px;
+	width: 180px;
 	margin-top: -47px;
     margin-left: 165px;
 }
@@ -288,10 +288,10 @@ footer a{
 		text-align: center;
 	}
 }
-@media screen and (min-width: 768px) and (max-width: 1024px)
+@media screen and (min-width: 320px) and (max-width: 1024px)
 {
-	header .logo{
-		width:50%;
+	header .logo-2{
+		width:30%;
 	}
 	.frase
 	{
